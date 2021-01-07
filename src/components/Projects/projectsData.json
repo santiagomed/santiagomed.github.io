@@ -6,7 +6,7 @@
     "caption": "Euchre virtual card game simulator built with C++ for single and multiplayer play on the terminal.",
     "git": "",
     "hc": true,
-    "liveDemo": "/not-found"
+    "liveDemo": false
   },
   {
     "_id": "2",
@@ -15,7 +15,7 @@
     "caption": "Built a Machine Learning Classifier using a simplified version of a \"Multi-Variate Bernoulli Naive Bayes Classifier\".",
     "git": "",
     "hc": true,
-    "liveDemo": "/not-found"
+    "liveDemo": false
   },
   {
     "_id": "3",
@@ -24,7 +24,7 @@
     "caption": "Built movie management service based on the CodeWithMosh ReactJS course (\"Mastering React\").",
     "git": "https://github.com/santiagomed/vidly-codewithmosh",
     "hc": false,
-    "liveDemo": "/not-found"
+    "liveDemo": false
   },
   {
     "_id": "4",
@@ -33,7 +33,7 @@
     "caption": "COVID-19 infected, recovered, and deaths live tracker built using ReactJS. Includes visualizations. Information fetched from an API.",
     "git": "https://github.com/santiagomed/covid-tracker",
     "hc": false,
-    "liveDemo": "/not-found"
+    "liveDemo": "/covid-tracker-demo"
   },
   {
     "_id": "5",

@@ -5,14 +5,8 @@ import styles from "./Project.module.css";
 import cx from "classnames";
 
 const Project = ({ icon, title, caption, git, hc, liveDemo }) => {
-  const liveButton = React.forwardRef((props) => (
-    <button {...props} disabled={hc}>
-      Live Demo
-    </button>
-  ));
-
   return (
-    <div className={cx("card m-3", styles.container)}>
+    <div className={cx("card m-3", styles.container, styles.card)}>
       <img
         src={require(`./images/${icon}.svg`).default}
         className={cx("card-img-top center", styles.image)}
@@ -32,8 +26,10 @@ const Project = ({ icon, title, caption, git, hc, liveDemo }) => {
         )}
         <Link
           to={liveDemo}
-          className={cx("btn btn-primary", styles.button)}
-          component={liveButton}
+          className={cx(
+            `btn btn-primary ${!liveDemo ? "disabled" : ""}`,
+            styles.button
+          )}
         >
           Live Demo
         </Link>
