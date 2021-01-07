@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "1",
+    "img": "cplusplus",
+    "title": "Euchre",
+    "caption": "Euchre virtual card game simulator built with C++ for single and multiplayer play on the terminal.",
+    "git": "",
+    "hc": true,
+    "liveDemo": "/not-found"
+  },
+  {
+    "_id": "2",
+    "img": "cplusplus",
+    "title": "ML Classifier",
+    "caption": "Built a Machine Learning Classifier using a simplified version of a \"Multi-Variate Bernoulli Naive Bayes Classifier\".",
+    "git": "",
+    "hc": true,
+    "liveDemo": "/not-found"
+  },
+  {
+    "_id": "3",
+    "img": "react",
+    "title": "Vidly",
+    "caption": "Built movie management service based on the CodeWithMosh ReactJS course (\"Mastering React\").",
+    "git": "https://github.com/santiagomed",
+    "hc": false,
+    "liveDemo": "/not-found"
+  },
+  {
+    "_id": "4",
+    "img": "react",
+    "title": "COVID-19 Tracker",
+    "caption": "COVID-19 infected, recovered, and deaths live tracker built using ReactJS. Includes visualizations. Information fetched from an API.",
+    "git": "https://github.com/santiagomed",
+    "hc": false,
+    "liveDemo": "/not-found"
+  },
+  {
+    "_id": "5",
+    "img": "react",
+    "title": "Portfolio ReactJS Website",
+    "caption": "Built a portfolio website with ReactJS and Bootstrap. Developed contact form, styling, routing, etc.",
+    "git": "https://github.com/santiagomed",
+    "hc": false,
+    "liveDemo": "/"
+  }
+]
