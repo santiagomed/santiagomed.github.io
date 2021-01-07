@@ -23,7 +23,6 @@
 workspace.code-workspace
 
 # emailjs
-emailJSKeys.json
 
 npm-debug.log*
 yarn-debug.log*
