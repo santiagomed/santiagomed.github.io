@@ -22,7 +22,7 @@
     "img": "react",
     "title": "Vidly",
     "caption": "Built movie management service based on the CodeWithMosh ReactJS course (\"Mastering React\").",
-    "git": "https://github.com/santiagomed",
+    "git": "https://github.com/santiagomed/vidly-codewithmosh",
     "hc": false,
     "liveDemo": "/not-found"
   },
@@ -31,7 +31,7 @@
     "img": "react",
     "title": "COVID-19 Tracker",
     "caption": "COVID-19 infected, recovered, and deaths live tracker built using ReactJS. Includes visualizations. Information fetched from an API.",
-    "git": "https://github.com/santiagomed",
+    "git": "https://github.com/santiagomed/covid-tracker",
     "hc": false,
     "liveDemo": "/not-found"
   },
@@ -40,7 +40,7 @@
     "img": "react",
     "title": "Portfolio ReactJS Website",
     "caption": "Built a portfolio website with ReactJS and Bootstrap. Developed contact form, styling, routing, etc.",
-    "git": "https://github.com/santiagomed",
+    "git": "https://github.com/santiagomed/santiago_portfolio",
     "hc": false,
     "liveDemo": "/"
   }
