@@ -5,7 +5,7 @@
     "node": "15.x"
   },
   "private": true,
-  "homepage": "http://santiagomed.github.io/home",
+  "homepage": "http://santiagomed.github.io/santiago-portfolio",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.6",
