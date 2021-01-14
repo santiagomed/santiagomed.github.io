@@ -3,7 +3,7 @@
     "_id": "1",
     "img": "python",
     "title": "RENO Virtual Assistant",
-    "caption": "Virtual assistant built with Python. Utilizes Python modules to recognize speech and complete tasks.",
+    "caption": "Virtual assistant built with Python. Utilizes Python modules to recognize speech and perform simple tasks.",
     "git": "https://github.com/santiagomed/reno-voice-assistant",
     "hc": false,
     "liveDemo": false
