@@ -38,6 +38,7 @@ class Contact extends Form {
       .send(keys.SERVICE_ID, keys.TEMPLATE_ID, templateParams, keys.USER_ID)
       .then((res) => {
         console.log("Email successfully sent!", res.status, res.text);
+        alert("Email sent successfully!");
       })
       .catch((err) => console.error("Email sending failed", err));
 

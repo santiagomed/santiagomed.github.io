@@ -8,14 +8,19 @@ import styles from "./Home.module.css";
 class Home extends Component {
   render() {
     const icons = [
-      "cplusplus",
-      "python",
-      "javascript",
-      "html5",
-      "react",
-      "bootstrap",
-      "git",
-      "npm",
+      "cplusplus-plain",
+      "python-plain-wordmark",
+      "javascript-plain-wordmark",
+      "html5-plain-wordmark",
+      "react-plain-wordmark",
+      "bootstrap-plain-wordmark",
+      "git-plain-wordmark",
+    ];
+
+    const learningIcons = [
+      "nodejs-plain",
+      "mongodb-plain-wordmark",
+      "express-original",
     ];
 
     return (
@@ -50,13 +55,26 @@ class Home extends Component {
               </div>
               <div className={cx("row", styles.cardstyle)}>
                 <h2>Skills and Technologies</h2>
-                <div className="row">
-                  {icons.map((icon, i) => (
-                    <i
-                      key={i}
-                      className={cx(`devicon-${icon}-plain`, styles.devIcon)}
-                    ></i>
-                  ))}
+                <div>
+                  <div className="row">
+                    {icons.map((icon, i) => (
+                      <i
+                        key={i}
+                        className={cx(`devicon-${icon}`, styles.devIcon)}
+                      ></i>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <h5 style={{ marginTop: "20px" }}>Currently learning...</h5>
+                  <div style={{ marginBottom: "20px" }} className="row">
+                    {learningIcons.map((icon, i) => (
+                      <i
+                        key={i}
+                        className={cx(`devicon-${icon}`, styles.devIcon)}
+                      ></i>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
