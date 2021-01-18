@@ -37,10 +37,13 @@ class Contact extends Form {
     emailjs
       .send(keys.SERVICE_ID, keys.TEMPLATE_ID, templateParams, keys.USER_ID)
       .then((res) => {
-        console.log("Email successfully sent!", res.status, res.text);
+        console.log("Email sent successfully!", res.status, res.text);
         alert("Email sent successfully!");
       })
-      .catch((err) => console.error("Email sending failed", err));
+      .catch((err) => {
+        console.error("Email sending failed", err);
+        alert("Email sending failed. Try again later.");
+      });
 
     this.resetForm();
   };

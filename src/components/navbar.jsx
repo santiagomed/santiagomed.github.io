@@ -1,5 +1,6 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import resume from "../assets/SantiagoMedinaResume.pdf";
 
 const NavBar = () => {
   return (
@@ -21,25 +22,17 @@ const NavBar = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div
-        className="collapse navbar-collapse justify-content-end"
-        id="navbarNav"
-      >
+      <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <NavLink className="nav-link" to="/home">
-              Home
-            </NavLink>
+            <a className="nav-link" href={resume} download>
+              Resume
+            </a>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/projects">
-              Projects
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/contact">
-              Contact
-            </NavLink>
+            <a className="nav-link" href="https://github.com/santiagomed">
+              GitHub
+            </a>
           </li>
         </ul>
       </div>
