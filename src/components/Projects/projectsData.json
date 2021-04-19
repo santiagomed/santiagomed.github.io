@@ -11,8 +11,8 @@
   {
     "_id": "2",
     "img": "cplusplus",
-    "title": "Euchre",
-    "caption": "Euchre virtual card game simulator built with C++ for single and multiplayer play on the terminal.",
+    "title": "Log Manager",
+    "caption": "Command line log manager that reads a list of log entries so the user can save, sort, move, and/or print entries.",
     "git": "",
     "hc": true,
     "liveDemo": false
