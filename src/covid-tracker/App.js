@@ -27,7 +27,7 @@ class App extends Component {
     const { data, country } = this.state;
     return (
       <div className={styles.container}>
-        <Link to="/home" className={cx("btn btn-secondary", styles.backbtn)}>
+        <Link to="/" className={cx("btn btn-secondary", styles.backbtn)}>
           Back
         </Link>
         <img className={styles.image} src={image} alt="COVID-19" />

@@ -15,8 +15,7 @@ function App() {
           <Route path="/santiago-portfolio" component={Home} />
           <Route path="/covid-tracker-demo" component={CovidTracker} />
           <Route path="/not-found" component={NotFound} />
-          <Redirect from="/" exact to="/home" />
-          <Redirect from="/santiago-portfolio" exact to="/home" />
+          <Redirect from="/" exact to="/santiago-portfolio" />
           <Redirect to="/not-found" />
         </Switch>
       </main>
