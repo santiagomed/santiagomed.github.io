@@ -15,7 +15,7 @@ const Projects = ({ executeContactScroll, executeAboutScroll }) => {
       <p className="center">
         <b>Note:</b> For reasons regarding the University of Michigan's College
         of Engineering's Honor Code, I cannot provide the source code of every
-        project in this page. If you are not involved with the College of
+        project on this page. If you are not involved with the College of
         Engineering, or think you are eligible to receive more information,
         contact me to learn more about a specific project.
       </p>
