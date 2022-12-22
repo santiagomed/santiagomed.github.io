@@ -1,0 +1,74 @@
+body {
+  /* Use code font */
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background: #f1ecdd;
+}
+h1 {
+  /* Make bold with a strong color; center*/
+  font-weight: bold;
+  color: #333;
+  font-size: 4em;
+  text-align: center;
+}
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a.link {
+  color: #ff7f00;
+  text-decoration: none;
+}
+footer {
+  /* Footer at the bottom */
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1px;
+}
+.header {
+  /* Header at the top */
+  width: 100%;
+  text-align: center;
+}
+.links {
+  /* Footer at the bottom */
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+.links a {
+  color: rgb(77, 77, 77);
+  margin: 0 10px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.grid {
+  /* Use CSS Grid to display wide cards in a grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.card {
+  background: #fff5e8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+a.card:hover {
+  /* Make the whole card move up when hovered */
+  transform: translateY(-5px);
+}
