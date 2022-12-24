@@ -92,6 +92,13 @@ section {
   padding: 20px;
 }
 
+/* make text take whole screen when screen is small */
+@media screen and (max-width: 600px) {
+  .container {
+    height: auto;
+  }
+}
+
 .scroll-container {
   overflow: auto;
   scroll-snap-type: y mandatory;
