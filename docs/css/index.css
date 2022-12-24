@@ -95,14 +95,8 @@ section {
 .scroll-container {
   overflow: auto;
   scroll-snap-type: y mandatory;
-  /* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
-/* Hide scrollbar for Chrome, Safari and Opera */
-.scroll-container::-webkit-scrollbar {
-  display: none;
-}
+
 .scroll-area {
   scroll-snap-align: start;
 }
@@ -145,14 +139,6 @@ a.link {
 }
 a.card:hover {
   transform: translateY(-5px);
-}
-.card ul {
-  list-style: none;
-  padding: 0;
-}
-.card ul li {
-  margin: 10px 0;
-  font-size: 0.9rem;
 }
 #articles .card {
   /* Smaller cards */

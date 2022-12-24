@@ -9,13 +9,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <!-- Add custom styles -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <div class="scroll-container">
       <div class="container">
         <div class="header scroll-area">
-          <h1 class="anim-typewriter">Santiago Medina</h1>
+          <h1 id="title" class="anim-typewriter">Santiago Medina</h1>
           <div class="links anim-icons">
             <a href="mailto:santiagm08@gmail.com" class="fa fa-envelope"></a>
             <a
@@ -27,7 +27,14 @@
               class="fa fa-linkedin"
             ></a>
             <!--Download resume-->
-            <a href="resume.pdf" class="fa fa-file"></a>
+            <a href="assets/resume.pdf" class="fa fa-file"></a>
+            <p style="font-size: 20px; padding: 5px; margin-top: 3rem">
+              <a href="#about" class="card tag-link">About Me</a>
+              <a href="#experience" class="card tag-link">Experience</a>
+              <a href="#articles" class="card tag-link"
+                >Articles and Tutorials</a
+              >
+            </p>
           </div>
         </div>
         <section id="about" class="anim-section scroll-area">
@@ -68,18 +75,6 @@
                 <br />
                 <em>May 2022 - August 2022</em>
               </p>
-              <ul>
-                <li>
-                  Improved Partner Center Marketplace search functionality and
-                  pagination by improving and fixing deprecated practices on the
-                  back-end APIs built on ASP.NET.
-                </li>
-                <li>
-                  Implemented a feature to the Partner Center Marketplace that
-                  improved upon the filtering functionality, which ensured a
-                  better user experience for Microsoft Partners.
-                </li>
-              </ul>
             </div>
             <div class="card">
               <h3>Instruction Assistant</h3>
@@ -88,17 +83,6 @@
                 <br />
                 <em>August 2022 - Present</em>
               </p>
-              <ul>
-                <li>
-                  Teach and assist students in EECS 485 - Web Systems, a course
-                  that teaches students how to build web applications and
-                  systems using modern web technologies.
-                </li>
-                <li>
-                  Hold weekly lab sessions to reinforce learning objectives and
-                  help students with their projects through office hours.
-                </li>
-              </ul>
             </div>
           </div>
         </section>
@@ -109,7 +93,7 @@
               href="https://www.voidtechmichigan.org/react-workshop"
               class="card"
             >
-              <h3>TypeScript and React Workshop</h3>
+              <h3>React Workshop</h3>
               <p>
                 <em>October 2022</em>
               </p>
@@ -133,10 +117,7 @@
               <p>
                 <em>October 2022</em>
               </p>
-              <p>
-                Build a backend for a web application using Node.js, Express,
-                PostgreSQL, and Sequelize.
-              </p>
+              <p>Build a backend for a web application using Node.js.</p>
             </a>
             <a
               href="https://docs.google.com/document/d/1s17VLsTFihVW9tpL6F-91JsclQ1ouDUoFAW9x-wXpOA/edit#heading=h.spsmqi85124j"
@@ -146,7 +127,7 @@
               <p>
                 <em>December 2022</em>
               </p>
-              <p>A list of articles and resources to learn about Blockchain.</p>
+              <p>A list of resources to learn about blockchain.</p>
             </a>
           </div>
         </section>
@@ -158,5 +139,7 @@
         <small> © 2022 Santiago Medina. All rights reserved. </small>
       </p>
     </footer> -->
+    <!-- Add scroll script -->
+    <script src="js/scroll.js"></script>
   </body>
 </html>

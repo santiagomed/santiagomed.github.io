@@ -1,0 +1,13 @@
+body {
+  /* Use code font */
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background: #f1ecdd;
+}
+.container {
+  /* center table and align center */
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1000px;
+}
