@@ -46,7 +46,7 @@ h1 {
   /* Make bold with a strong color; center*/
   font-weight: bold;
   color: #333;
-  font-size: 4em;
+  font-size: 4rem;
   text-align: center;
   margin: 20px 0;
   /* Typewriter effect */
@@ -56,11 +56,15 @@ h1 {
   animation: blink-caret 1s step-end infinite;
 }
 h2 {
-  font-size: 2em;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+h3 {
+  font-size: 1.5rem;
   margin: 20px 0;
 }
 p {
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.5;
   margin: 20px 0;
 }
@@ -90,13 +94,6 @@ section {
   height: 100vh;
   margin: 0 auto;
   padding: 20px;
-}
-
-/* make text take whole screen when screen is small */
-@media screen and (max-width: 600px) {
-  .container {
-    height: auto;
-  }
 }
 
 .scroll-container {
@@ -139,8 +136,10 @@ a.link {
   background: #fff5e8;
   padding: 20px;
   border-radius: 10px;
+  max-width: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .card:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -148,8 +147,8 @@ a.card:hover {
   transform: translateY(-5px);
 }
 #articles .card {
-  /* Smaller cards */
-  max-width: 300px;
+  /* Smaller cards relative to the screen */
+  max-width: 30rem;
 }
 
 /* Footer */
@@ -160,4 +159,29 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 1px;
+}
+
+/* Change font size for mobile */
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+
+/* Make card take be screen wide and on a single column for mobile */
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  #articles .card {
+    /* Smaller cards relative to the screen */
+    max-width: 100%;
+  }
 }
