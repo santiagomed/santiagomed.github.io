@@ -4,10 +4,49 @@ body {
   margin: 0;
   padding: 0;
   background: #f1ecdd;
+  /* center content on the screen */
 }
+
 .container {
-  /* center table and align center */
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Title */
+h1 {
+  /* Make bold with a strong color; center*/
+  font-weight: bold;
+  color: #333;
+  font-size: 4rem;
   text-align: center;
-  max-width: 1000px;
+  margin: 20px 0;
+  /* Typewriter effect */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #ff7f00;
+  animation: blink-caret 1s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ff7f00;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 20px 0;
+  width: 70%;
+}
+
+a {
+  color: #ff7f00;
+  text-decoration: none;
 }
