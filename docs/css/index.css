@@ -1,9 +1,9 @@
 body {
   /* Use code font */
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  margin: 0;
   padding: 0;
   background: #f1ecdd;
+  margin-bottom: 2000px;
 }
 
 /* ===== Animations ===== */
@@ -67,6 +67,7 @@ p {
   font-size: 1rem;
   line-height: 1.5;
   margin: 20px 0;
+  color: rgb(77, 77, 77);
 }
 
 /* Header */
@@ -84,7 +85,8 @@ p {
 /* Section */
 section {
   /* Make section take whole screen */
-  height: 100vh;
+  margin-top: 10%;
+  margin-bottom: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -94,15 +96,6 @@ section {
   height: 100vh;
   margin: 0 auto;
   padding: 20px;
-}
-
-.scroll-container {
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-}
-
-.scroll-area {
-  scroll-snap-align: start;
 }
 
 /* Links */
@@ -154,7 +147,10 @@ a.card:hover {
 /* Footer */
 footer {
   /* Footer at the bottom */
-  width: 100%;
+  width: 100vw !important; /* Full viewport width */
+  clear: both;
+  left: 0 !important; /* Aligns to the left edge */
+  bottom: 0 !important; /* Aligns to the bottom of the viewport */
   text-align: center;
   background-color: #333;
   color: #fff;
